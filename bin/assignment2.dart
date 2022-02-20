@@ -117,6 +117,10 @@ void main(List<String> arguments) {
   var newvalue1 = reusableMethod(40, 17);
 
   print(newvalue1);
+  
+  //new list print 8
+
+ listFunction();
 
 
 }
@@ -152,5 +156,32 @@ void main(List<String> arguments) {
 
 
   }
+  
+  
+  
+ void listFunction() {
 
+  //Given data [14,25,36];
+
+  List list6 =  ['14', '14', '14.25'];
+
+  print('Before insert data: $list6');
+  list6.add(14);
+  list6.add(25);
+  list6.add(36);
+
+
+// after insert data
+
+  print('After insert data: $list6');
+
+  /////List newlist1 = [];
+
+ ///// newlist1.addAll(list5 + list6);
+
+  ///print(newlist1);
+
+
+
+ }
 
