@@ -103,8 +103,36 @@ void main(List<String> arguments) {
     print('Exception Name for d : $e'' Line at : $l' );
   }
 
+// no 6 ..method call and pass data
 
+  var multiplicationprint = myNewMethod(100, 20);
+
+  print('Multiplication of Two value: $multiplicationprint');
+
+
+  myNewMethod1(multiplicationprint);
+
+
+}
+
+
+
+// no 6
+ int myNewMethod(int value1 , int value2){
+
+  var multiplication = value1* value2 ;
+
+  return multiplication;
 
 
 
 }
+
+
+  myNewMethod1(var dataprint) {
+
+  print('Print in New Method : $dataprint');
+
+  }
+
+
