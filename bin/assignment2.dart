@@ -5,4 +5,22 @@ void main(List<String> arguments) {
 
   print(newlist);
 
+
+  //no 2
+
+  List studentlist =['Rahim','Karim','Abdul','Johan','Babar'];
+
+  print(studentlist);
+
+  print(studentlist.length);
+
+  studentlist.clear();
+  //after clear
+  print(studentlist);
+
+  print(studentlist.length);
+
+
+  
+
 }
