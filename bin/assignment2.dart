@@ -112,6 +112,12 @@ void main(List<String> arguments) {
 
   myNewMethod1(multiplicationprint);
 
+  //no 7 method call and store in newvalue1 .also print
+
+  var newvalue1 = reusableMethod(40, 17);
+
+  print(newvalue1);
+
 
 }
 
@@ -125,13 +131,25 @@ void main(List<String> arguments) {
   return multiplication;
 
 
-
 }
 
 
   myNewMethod1(var dataprint) {
 
   print('Print in New Method : $dataprint');
+
+  }
+
+
+  // no 7 ..Reusable method
+
+
+  double reusableMethod(int p, int q){
+
+  double r = p/q;
+
+  return r;
+
 
   }
 
