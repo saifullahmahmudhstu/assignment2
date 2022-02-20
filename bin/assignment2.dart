@@ -69,6 +69,40 @@ void main(List<String> arguments) {
 
   print(list1);
 
+  //exception handling
+  //a
+
+  try{
+    var a=double.parse('dfsdf');
+    print(a);
+  }
+
+  catch(e,l){
+    print('Exception Name: $e' '  Line at :$l'  );
+  }
+
+  //b and c
+  var list=[];
+  try{
+
+   print(list[0]);
+  }
+
+  catch(e,l){
+    print('Exception Name: $e' '  Line at :$l'  );
+  }
+
+
+
+//d
+  try{
+    int b=int.parse("10.55");
+    print(b);
+  }
+  catch(e,l){
+    print('Exception Name for d : $e'' Line at : $l' );
+  }
+
 
 
 
