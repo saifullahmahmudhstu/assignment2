@@ -121,9 +121,13 @@ void main(List<String> arguments) {
   //new list print 8
 
  listFunction();
+ var t = mylistFunc();
 
+ print(t);
 
 }
+
+//end of main function
 
 
 
@@ -184,4 +188,48 @@ void main(List<String> arguments) {
 
 
  }
+
+
+//no 9.
+ //argument is a way to provide more information to a function.
+// index of list  List listvariable =[5];
+//listvariable[0],listvariable[1],listvariable[2],listvariable[3],listvariable[4];
+//add and addAll method are build in method.. add method use for single data insert and
+// addAll method use multiple data insert in list
+
+
+//no 10.
+
+
+List mylistFunc(){
+
+  List<String> listname = [];
+  listname.add('10');
+  listname.add('20');
+  listname.add('30');
+  listname.add('40');
+  listname.add('50');
+  listname.add('60');
+  print(listname);
+
+  print('Before Remove length Size :${listname.length}');
+
+  listname.removeAt(2);
+//after remove
+  print(listname);
+
+  print('After Remove length :${listname.length}');
+
+  //addAll method
+
+  listname.addAll(['Bangladesh','China','India','Pakistan','Japan']);
+
+  print(listname);
+
+//then clear all
+  listname.clear();
+
+
+  return listname;
+}
 
