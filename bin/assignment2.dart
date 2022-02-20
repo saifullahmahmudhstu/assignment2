@@ -41,4 +41,36 @@ void main(List<String> arguments) {
   print(mylist);
 
 
+  //no 4
+  // Write a program to convert string to
+  // double, double to String, int to String, then
+  // write a Heterogeneous list.
+
+  //string to double
+  String s = '500';
+  double d = double.parse(s);
+  print(d);
+
+  //double to string
+
+  double d1 = 445.9709;
+  String newstring = d1.toString();
+  print(newstring);
+
+  //int to string
+
+  int i = 234567876;
+  String newstring1 = i.toString();
+  print(newstring1);
+
+  //Heterogeneous List ..Mixed data type
+
+  List list1 =['Rimon',098767,987.990, {'name': 'Rimon'},['XYZ']];
+
+  print(list1);
+
+
+
+
+
 }
